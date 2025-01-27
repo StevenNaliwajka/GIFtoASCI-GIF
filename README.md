@@ -14,7 +14,7 @@ Example...
 ## Usage Instructions
 
 1) Ensure you have the latest version of Python installed.
-2) Place any GIF you wish to convert into the Gif/in folder.
+2) Place any GIF you wish to convert into the 'GIF/in' folder.
 3) Run the following command:
 ```angular2html
 python run.py
