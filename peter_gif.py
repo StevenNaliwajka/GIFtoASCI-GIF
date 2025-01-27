@@ -12,7 +12,10 @@ if __name__ == "__main__":
     '''
 
     current_path = os.getcwd()
-    gif_path = os.path.join(current_path, 'Gif', 'in', 'tweaker-freak-out.gif')
+    gif_name = input("Please enter the name of the gif stored in the 'in' folder: ")
+    if not gif_name.lower().endswith('.gif'):
+        gif_name += '.gif'
+    gif_path = os.path.join(current_path, 'Gif', 'in', gif_name)
     print("Relative Path:", gif_path)
 
     from Codebase.video_to_asci import gif_to_ascii
