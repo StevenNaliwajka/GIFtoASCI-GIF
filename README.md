@@ -8,7 +8,7 @@ Can specify the resolution to determine the quality of the image. Lower quality 
 
 Example...
 
-![Peter](https://github.com/StevenNaliwajka/PeterGif/blob/main/GIf/out/output.gif)
+![Peter](https://github.com/StevenNaliwajka/GIFtoASCI-GIF/blob/main/GIF/out/output.gif)
 
 
 ## Usage Instructions
