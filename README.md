@@ -14,9 +14,19 @@ Example...
 ## Usage Instructions
 
 1) Ensure you have the latest version of Python installed.
-2) Place any GIF you wish to convert into the 'GIF/in' folder.
-3) Run the following command:
+2) Download or Clone the repository.
+3) Place any GIF you wish to convert into the 'GIFtoASCI-GIF/GIF/in' folder.
+4) Open your terminal or command prompt. 
+5) Navigate to the folder containing the `run.py` file using the `cd` command. For example
+```commandline
+cd /path/to/your/project
+```
+6) Once inside the correct directory, execute the program by running:
 ```angular2html
 python run.py
+or
+py run.py
+or
+python3 run.py
 ```
-4) You will be prompted to enter the GIF name and output resolution during execution.
+7) You will be prompted to enter the input GIF name and output resolution during execution.
