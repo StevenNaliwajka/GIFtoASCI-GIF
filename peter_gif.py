@@ -1,6 +1,4 @@
 import os
-import sys
-from run_in_terminal import run_in_terminal
 
 if __name__ == "__main__":
     # Check if the script is already running in a new terminal, not used anymore
@@ -17,7 +15,7 @@ if __name__ == "__main__":
     gif_path = os.path.join(current_path, 'Gif', 'in', 'tweaker-freak-out.gif')
     print("Relative Path:", gif_path)
 
-    from VideoToAsci.video_to_asci import gif_to_ascii
+    from Codebase.video_to_asci import gif_to_ascii
 
     terminal_width = int(input("Enter the terminal width for ASCII art (default 100): ") or 100)
     save_path = os.path.join(current_path, 'Gif', 'out', 'output.gif')
